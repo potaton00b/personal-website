@@ -95,3 +95,16 @@
 .thin-border-l {
   border-left: 1px solid #000000;
 }
+
+/* ── Resume 2-column grid ──────────────────────────────── */
+.resume-grid {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  column-gap: 2rem;
+}
+@media (max-width: 640px) {
+  .resume-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
