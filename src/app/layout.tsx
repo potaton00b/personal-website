@@ -12,6 +12,7 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sunnycui.com"),
   title: `${siteContent.name} | ${siteContent.footer.brandName}`,
   description: siteContent.tagline,
   openGraph: {
