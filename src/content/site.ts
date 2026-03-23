@@ -4,12 +4,12 @@
 
 export const siteContent = {
   // ── Brand / Nav ────────────────────────────────────────────
-  brandName: "Architect.Log",
+  brandName: "",
 
   // ── Hero ───────────────────────────────────────────────────
   name: "Sunny Cui",
-  tagline: "Builder interested in AI agents, developer tools, and startup ideas.",
-  bio: "I am a software engineer focused on bridging the gap between complex infrastructure and intuitive developer experiences. My technical ambition is to build robust, scalable systems that empower the next generation of autonomous AI applications.",
+  tagline: "",
+  bio: "Hi! I'm a student interested in lawtech, medtech, edtech, and startups. I'm currently a medical student at Stanford. I previously attending Dartmouth College and Queen's Unviersity for undergrad. Based in San Francisco but a Torontonian born and raised. Please feel free to reach out :)",
 
   // ── Social Links ───────────────────────────────────────────
   email: "sunny.work.2002@gmail.com",
@@ -21,6 +21,7 @@ export const siteContent = {
 
   // ── 01 // The Focus ────────────────────────────────────────
   focus: {
+    visible: false, // ← set to true to show this section
     heading: "01 // The Focus",
     paragraphs: [
       "I am fascinated by the inefficiencies in developer workflows and the cognitive load required to manage modern cloud infrastructure. I believe the future lies in reducing this friction through intelligent automation and more expressive abstraction layers.",
@@ -30,6 +31,7 @@ export const siteContent = {
 
   // ── 02 // Now ──────────────────────────────────────────────
   now: {
+    visible: false, // ← set to true to show this section
     heading: "02 // Now",
     items: [
       {
