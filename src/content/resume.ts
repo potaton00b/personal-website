@@ -3,8 +3,8 @@
 // ============================================================
 
 export const resumeContent = {
-  heading: "RESUME",
-  roleTitle: "SOFTWARE ENGINEER / TECHNICAL ARCHITECT",
+  heading: "Resume",
+  roleTitle: "Software Engineer / Technical Architect",
 
   // ── 01 // EDUCATION ────────────────────────────────────────
   education: [
