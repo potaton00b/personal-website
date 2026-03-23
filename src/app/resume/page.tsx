@@ -40,7 +40,7 @@ export default function ResumePage() {
       </header>
 
       {/* 01 // Education */}
-      <section className="resume-grid pt-4">
+      <section className="resume-grid pt-4 thin-border-t">
         <div className="font-bold text-[13px]" style={{ color: "#000000" }}>
           01 // Education
         </div>
@@ -62,7 +62,7 @@ export default function ResumePage() {
       </section>
 
       {/* 02 // Experience */}
-      <section className="resume-grid pt-4">
+      <section className="resume-grid pt-4 thin-border-t">
         <div className="font-bold text-[13px]" style={{ color: "#000000" }}>
           02 // Experience
         </div>
@@ -87,7 +87,7 @@ export default function ResumePage() {
       </section>
 
       {/* 03 // Previous Ventures */}
-      <section className="resume-grid pt-4">
+      <section className="resume-grid pt-4 thin-border-t">
         <div className="font-bold text-[13px]" style={{ color: "#000000" }}>
           03 // Previous Ventures
         </div>
