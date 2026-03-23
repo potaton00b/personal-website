@@ -1,6 +1,7 @@
 "use client";
 
 import { siteContent } from "@/content/site";
+import BoldText from "@/components/BoldText";
 
 export default function Hero() {
   const { name, tagline, bio, email, githubUrl, linkedinUrl } = siteContent;
@@ -12,7 +13,7 @@ export default function Hero() {
         <p className="text-h2 font-medium">{tagline}</p>
       </header>
 
-      <p className="text-body">{bio}</p>
+      <p className="text-body"><BoldText text={bio} /></p>
 
       <div className="flex flex-wrap gap-3">
         <a

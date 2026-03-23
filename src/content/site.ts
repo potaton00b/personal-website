@@ -9,7 +9,7 @@ export const siteContent = {
   // ── Hero ───────────────────────────────────────────────────
   name: "Sunny Cui",
   tagline: "",
-  bio: "Hi! I'm a student interested in lawtech, medtech, edtech, and startups. I'm currently a medical student at Stanford. I previously attending Dartmouth College and Queen's Unviersity for undergrad. Based in San Francisco but a Torontonian born and raised. Please feel free to reach out :)",
+  bio: "Hi! I'm a student interested in lawtech, medtech, edtech, and **startups**. I'm currently a **Stanford medical student**. I previously attending Dartmouth College and Queen's Unviersity for undergrad. Based in San Francisco but a Torontonian born and raised. Please feel free to reach out :)",
 
   // ── Social Links ───────────────────────────────────────────
   email: "sunny.work.2002@gmail.com",
