@@ -5,12 +5,7 @@ export default function Now() {
 
   return (
     <section id="now" className="space-y-4">
-      <h2
-        className="text-h2 font-black tracking-tighter uppercase"
-        style={{ fontFamily: "var(--font-headline)" }}
-      >
-        {now.heading}
-      </h2>
+      <h2 className="text-h2 font-bold">{now.heading}</h2>
       <div className="thin-border p-6" style={{ backgroundColor: "#ffffff" }}>
         <ul className="space-y-3">
           {now.items.map((item, i) => (

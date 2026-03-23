@@ -5,12 +5,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="space-y-4 pb-6">
-      <h2
-        className="text-h2 font-black tracking-tighter uppercase"
-        style={{ fontFamily: "var(--font-headline)" }}
-      >
-        {contact.heading}
-      </h2>
+      <h2 className="text-h2 font-bold">{contact.heading}</h2>
       <div className="space-y-4">
         <p className="text-body">{contact.intro}</p>
         <div className="flex flex-wrap gap-x-6 gap-y-2 text-body font-medium">

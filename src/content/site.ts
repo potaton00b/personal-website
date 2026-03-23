@@ -4,10 +4,10 @@
 
 export const siteContent = {
   // ── Brand / Nav ────────────────────────────────────────────
-  brandName: "ARCHITECT.LOG",
+  brandName: "Architect.Log",
 
   // ── Hero ───────────────────────────────────────────────────
-  name: "SUNNY CUI",
+  name: "Sunny Cui",
   tagline: "Builder interested in AI agents, developer tools, and startup ideas.",
   bio: "I am a software engineer focused on bridging the gap between complex infrastructure and intuitive developer experiences. My technical ambition is to build robust, scalable systems that empower the next generation of autonomous AI applications.",
 
@@ -19,18 +19,18 @@ export const siteContent = {
   linkedinHandle: "in/sunny-cui",
   resumeUrl: "/resume.pdf", // place resume.pdf in /public
 
-  // ── 01 // THE FOCUS ────────────────────────────────────────
+  // ── 01 // The Focus ────────────────────────────────────────
   focus: {
-    heading: "01 // THE FOCUS",
+    heading: "01 // The Focus",
     paragraphs: [
       "I am fascinated by the inefficiencies in developer workflows and the cognitive load required to manage modern cloud infrastructure. I believe the future lies in reducing this friction through intelligent automation and more expressive abstraction layers.",
       "I aim to build startup-focused products that prioritize speed-to-market without sacrificing architectural integrity, specifically enabling AI agents to safely interact with legacy enterprise systems.",
     ],
   },
 
-  // ── 02 // NOW ──────────────────────────────────────────────
+  // ── 02 // Now ──────────────────────────────────────────────
   now: {
-    heading: "02 // NOW",
+    heading: "02 // Now",
     items: [
       {
         text: "Exploring startup ideas in",
@@ -50,30 +50,21 @@ export const siteContent = {
     ],
   },
 
-  // ── 03 // PROJECTS ─────────────────────────────────────────
+  // ── 03 // Projects ─────────────────────────────────────────
   projects: {
-    heading: "03 // PROJECTS",
+    heading: "03 // Projects",
     placeholder: "Building in progress. Project logs will be indexed here shortly.",
-    // To add real projects, replace placeholder with an array:
-    // items: [
-    //   {
-    //     name: "Project Name",
-    //     description: "Short description.",
-    //     url: "https://...",
-    //     tags: ["Next.js", "TypeScript"],
-    //   },
-    // ],
   },
 
-  // ── 04 // CONTACT ──────────────────────────────────────────
+  // ── 04 // Contact ──────────────────────────────────────────
   contact: {
-    heading: "04 // CONTACT",
+    heading: "04 // Contact",
     intro: "I'm always happy to talk about startup ideas, AI products, and technical problems worth solving.",
   },
 
   // ── Footer ─────────────────────────────────────────────────
   footer: {
     year: "2025",
-    brandName: "TECHNICAL_MANUSCRIPT",
+    brandName: "technical_manuscript",
   },
 };

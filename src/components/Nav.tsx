@@ -5,9 +5,9 @@ import { usePathname } from "next/navigation";
 import { siteContent } from "@/content/site";
 
 const navLinks = [
-  { label: "HOME", href: "/", activePath: "/" },
-  { label: "PROJECTS", href: "/projects", activePath: "/projects" },
-  { label: "RESUME", href: "/resume", activePath: "/resume" },
+  { label: "Home", href: "/", activePath: "/" },
+  { label: "Projects", href: "/projects", activePath: "/projects" },
+  { label: "Resume", href: "/resume", activePath: "/resume" },
 ];
 
 export default function Nav() {
@@ -20,8 +20,8 @@ export default function Nav() {
         {/* Logo */}
         <a
           href="/"
-          className="text-body font-black tracking-tighter uppercase"
-          style={{ fontFamily: "var(--font-headline)", textDecoration: "none", color: "#000000" }}
+          className="text-body font-black"
+          style={{ textDecoration: "none", color: "#000000" }}
         >
           {siteContent.brandName}
         </a>
@@ -34,9 +34,8 @@ export default function Nav() {
               <a
                 key={link.label}
                 href={link.href}
-                className="font-black text-[12px] tracking-widest uppercase transition-colors"
+                className="font-medium text-[14px] transition-colors"
                 style={{
-                  fontFamily: "var(--font-headline)",
                   color: isActive ? "#000000" : "#777777",
                   textDecoration: isActive ? "underline" : "none",
                   textDecorationThickness: "1px",
@@ -78,9 +77,8 @@ export default function Nav() {
               <a
                 key={link.label}
                 href={link.href}
-                className="font-black text-[12px] tracking-widest uppercase"
+                className="font-medium text-[14px]"
                 style={{
-                  fontFamily: "var(--font-headline)",
                   color: "#000000",
                   textDecoration: isActive ? "underline" : "none",
                 }}

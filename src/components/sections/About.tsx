@@ -5,12 +5,7 @@ export default function About() {
 
   return (
     <section id="about" className="space-y-4">
-      <h2
-        className="text-h2 font-black tracking-tighter uppercase"
-        style={{ fontFamily: "var(--font-headline)" }}
-      >
-        {focus.heading}
-      </h2>
+      <h2 className="text-h2 font-bold">{focus.heading}</h2>
       <div className="thin-border-l pl-6 space-y-4">
         {focus.paragraphs.map((para, i) => (
           <p key={i} className="text-body">

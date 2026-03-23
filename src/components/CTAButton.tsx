@@ -9,9 +9,8 @@ export default function CTAButton({ href, label }: CTAButtonProps) {
   return (
     <a
       href={href}
-      className="px-6 py-2.5 font-black text-[12px] tracking-widest uppercase thin-border transition-colors"
+      className="px-6 py-2.5 font-medium text-[14px] thin-border transition-colors"
       style={{
-        fontFamily: "var(--font-headline)",
         backgroundColor: "#000000",
         color: "#ffffff",
         textDecoration: "none",
