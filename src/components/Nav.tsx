@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { siteContent } from "@/content/site";
+import Link from "next/link";
 
 const navLinks = [
   { label: "Home", href: "/", activePath: "/" },
@@ -16,22 +16,14 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 z-50 thin-border-b" style={{ backgroundColor: "#f9f9f9" }}>
-      <div className="flex justify-between items-center w-full px-6 py-4 max-w-[700px] mx-auto">
-        {/* Logo */}
-        <a
-          href="/"
-          className="text-body font-black"
-          style={{ textDecoration: "none", color: "#000000" }}
-        >
-          {siteContent.brandName}
-        </a>
+      <div className="relative flex justify-center items-center w-full px-6 py-4 max-w-[700px] mx-auto">
 
         {/* Desktop nav */}
         <div className="hidden md:flex gap-6 items-center">
           {navLinks.map((link) => {
             const isActive = pathname === link.activePath;
             return (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
                 className="font-medium text-[14px] transition-colors"
@@ -51,14 +43,14 @@ export default function Nav() {
                 }}
               >
                 {link.label}
-              </a>
+              </Link>
             );
           })}
         </div>
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden flex flex-col gap-1.5 p-1"
+          className="md:hidden flex flex-col gap-1.5 p-1 absolute right-6"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -74,7 +66,7 @@ export default function Nav() {
           {navLinks.map((link) => {
             const isActive = pathname === link.activePath;
             return (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
                 className="font-medium text-[14px]"
@@ -85,7 +77,7 @@ export default function Nav() {
                 onClick={() => setMenuOpen(false)}
               >
                 {link.label}
-              </a>
+              </Link>
             );
           })}
         </div>
