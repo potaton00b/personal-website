@@ -5,7 +5,7 @@
 export const projectsContent = {
   heading: "Projects",
   subtitle:
-    "A highly distilled index of technical implementations, low-level systems, and distributed architecture experiments.",
+    "Come check out what I'm working on!",
 
   // ── Project list ───────────────────────────────────────────
   // Each project can have multiple links (GitHub, Demo, Live, Source, Docs…)
@@ -13,43 +13,43 @@ export const projectsContent = {
   items: [
     {
       number: "01",
-      name: "k8s-mesh-replicator",
+      name: "EB2-NIW Petition Automation",
       description:
-        "High-throughput service mesh sidecar for real-time state synchronization across multi-region Kubernetes clusters. Written in Rust for sub-millisecond latency.",
-      links: [{ label: "GitHub", url: "https://github.com/potaton00b" }],
-      tags: ["Rust", "gRPC", "k8s"],
+        "AI-native platform that automates employment-based green card petitions, using a voice agent to guide applicants through drafting proposed endeavors, sourcing recommendation letters, and assembling filing-ready packages.",
+      links: [],
+      tags: ["Typescript", "Python", "FastAPI"],
     },
     {
       number: "02",
-      name: "vector-sql engine",
+      name: "Bidpass",
       description:
-        "Columnar storage engine supporting SIMD-accelerated vector search. Optimizes query execution plans for high-dimensional embeddings using HNSW indexing.",
-      links: [{ label: "GitHub", url: "https://github.com/potaton00b" }],
-      tags: ["C++20", "SIMD", "SQL"],
+        "Marketplace platform that lets users bid on event tickets below retail price.",
+      links: [{ label: "Site", url: "https://bidpass.org/" }],
+      tags: ["Next.js", "Typescript", "PostgreSQL"],
     },
     {
       number: "03",
-      name: "distributed-kv",
+      name: "Reference Verifier",
       description:
-        "Fault-tolerant key-value store implementing the Raft consensus algorithm. Features include log compaction and a linearizable read-write API.",
-      links: [{ label: "GitHub", url: "https://github.com/potaton00b" }],
-      tags: ["Go", "Raft", "dist-sys"],
+        "API microservice that uses AI to verify whether claims are accurately supported by their cited sources.",
+      links: [{ label: "GitHub", url: "https://github.com/potaton00b/reference-verifier-agent" }],
+      tags: ["Next.js", "Typescript", "Python"],
     },
     {
       number: "04",
-      name: "wasm-core visualizer",
+      name: "PeerTECH",
       description:
-        "WebAssembly execution profiler that visualizes memory management in real-time. Designed for debugging complex cross-compiled modules in the browser.",
-      links: [{ label: "GitHub", url: "https://github.com/potaton00b" }],
-      tags: ["TypeScript", "WASM", "WebGL"],
+        "Smartphone app and peer care management dashboard that helps adults with serious mental illness co-manage psychiatric and chronic health conditions alongside certified peer specialists.",
+      links: [{ label: "Site", url: "https://www.scattergoodfoundation.org/award_submission/peertech-peer-and-technology-supported-self-management-intervention/" }],
+      tags: ["Flutter", "Swift", "Kotlin"],
     },
   ],
 
   // ── Collaboration CTA ──────────────────────────────────────
   collaboration: {
     heading: "05 // Collaboration",
-    text: "Currently open to high-impact engineering roles or strategic consulting for distributed systems architecture.",
-    ctaLabel: "Send Transmission",
+    text: "Currently open to collaboration!",
+    ctaLabel: "Send Email",
     ctaHref: "mailto:sunny.work.2002@gmail.com",
   },
 };
