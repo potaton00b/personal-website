@@ -9,7 +9,7 @@ export const siteContent = {
   // ── Hero ───────────────────────────────────────────────────
   name: "Sunny Cui",
   tagline: "",
-  bio: "Hi! I'm a student interested in lawtech, medtech, edtech, and **startups**. I'm currently a **Stanford medical student**. I previously attending Dartmouth College and Queen's Unviersity for undergrad. Based in San Francisco but a Torontonian born and raised. Please feel free to reach out :)",
+  bio: "Hi! I'm interested in **lawtech**, **medtech**, **edtech**, and **startups**. I'm currently a medical student at **Stanford University**. I previously attending **Dartmouth College** and **Queen's Unviersity** for undergrad. I'm based in **San Francisco** but a Torontonian born and raised. Please feel free to reach out :)",
 
   // ── Social Links ───────────────────────────────────────────
   email: "sunny.work.2002@gmail.com",
@@ -54,12 +54,14 @@ export const siteContent = {
 
   // ── 03 // Projects ─────────────────────────────────────────
   projects: {
+    visible: false, // ← set to true to show this section on the home page
     heading: "03 // Projects",
     placeholder: "Building in progress. Project logs will be indexed here shortly.",
   },
 
   // ── 04 // Contact ──────────────────────────────────────────
   contact: {
+    visible: false, // ← set to true to show this as a separate section
     heading: "04 // Contact",
     intro: "I'm always happy to talk about startup ideas, AI products, and technical problems worth solving.",
   },

@@ -11,8 +11,8 @@ export default function Page() {
       <Hero />
       {siteContent.focus.visible && <About />}
       {siteContent.now.visible && <Now />}
-      <Projects />
-      <Contact />
+      {siteContent.projects.visible && <Projects />}
+      {siteContent.contact.visible && <Contact />}
     </div>
   );
 }

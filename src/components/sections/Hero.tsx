@@ -4,7 +4,7 @@ import { siteContent } from "@/content/site";
 import BoldText from "@/components/BoldText";
 
 export default function Hero() {
-  const { name, tagline, bio, email, githubUrl, linkedinUrl } = siteContent;
+  const { name, tagline, bio, email, githubUrl, githubHandle, linkedinUrl, linkedinHandle, contact } = siteContent;
 
   return (
     <section id="hero" className="space-y-6">
@@ -66,6 +66,22 @@ export default function Hero() {
             {link.label}
           </a>
         ))}
+      </div>
+
+      {/* Contact info */}
+      <div className="space-y-2 pt-2">
+        <p className="text-body">{contact.intro}</p>
+        <div className="flex flex-wrap gap-x-6 gap-y-1 text-body font-medium">
+          <a href={`mailto:${email}`} className="hover:underline" style={{ textDecorationThickness: "1px", textUnderlineOffset: "4px" }}>
+            Email: {email}
+          </a>
+          <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ textDecorationThickness: "1px", textUnderlineOffset: "4px" }}>
+            GitHub: {githubHandle}
+          </a>
+          <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ textDecorationThickness: "1px", textUnderlineOffset: "4px" }}>
+            LinkedIn: {linkedinHandle}
+          </a>
+        </div>
       </div>
     </section>
   );
