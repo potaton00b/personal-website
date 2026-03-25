@@ -13,11 +13,11 @@ export const projectsContent = {
   items: [
     {
       number: "01",
-      name: "EB2-NIW Petition Automation",
+      name: "simplify-voice-agent-sdk",
       description:
-        "AI-native platform that automates employment-based green card petitions, using a voice agent to guide applicants through drafting proposed endeavors, sourcing recommendation letters, and assembling filing-ready packages.",
-      links: [],
-      tags: ["Typescript", "Python", "FastAPI"],
+        "Open-source SDK for quickly setting up Twilio voice agents in Typescript using Fastify.",
+      links: [{ label: "Github", url: "https://github.com/potaton00b/simplify-voice-agent-sdk"}],
+      tags: ["Typescript", "Fastify"],
     },
     {
       number: "02",
